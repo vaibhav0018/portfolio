@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vaibhav Patil — AI/ML Engineer</title>
+  <meta name="description" content="AI Engineer building production-grade LLM systems: RAG, text-to-SQL analytics, and voice AI automation.">
+  <meta name="theme-color" content="#0b0f17">
+
+  <!-- Social share preview (LinkedIn, WhatsApp, Slack, X read these tags) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Vaibhav Patil — AI/ML Engineer">
+  <meta property="og:description" content="Production-grade LLM systems: RAG, text-to-SQL analytics, and voice AI automation.">
+  <meta property="og:site_name" content="Vaibhav Patil">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Vaibhav Patil — AI/ML Engineer">
+  <meta name="twitter:description" content="Production-grade LLM systems: RAG, text-to-SQL analytics, and voice AI automation.">
+
+  <!-- Inline SVG favicon: no extra file needed -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b0f17'/%3E%3Ctext x='32' y='43' font-size='30' font-family='Arial' font-weight='700' text-anchor='middle' fill='%235eead4'%3EVP%3C/text%3E%3C/svg%3E">
+
+  <!-- Structured data: tells Google "this page is about a Person" -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Vaibhav Patil",
+    "jobTitle": "AI/ML Engineer",
+    "email": "mailto:patilvaibhav0018@gmail.com",
+    "address": { "@type": "PostalAddress", "addressLocality": "Mumbai", "addressCountry": "IN" },
+    "sameAs": [
+      "https://www.linkedin.com/in/vaibhav-patil-93b660288",
+      "https://github.com/vaibhav0018"
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <canvas id="bg" aria-hidden="true"></canvas>
+
+  <header class="nav">
+    <a href="#top" class="logo">VP<span>.</span></a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact" class="btn-small">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <p class="eyebrow mono">Hi, I'm</p>
+      <h1>Vaibhav Patil</h1>
+      <h2>I build <span class="accent" id="typed" aria-live="off">production-grade AI systems</span><span class="caret" aria-hidden="true"></span></h2>
+      <p class="lead">
+        AI/ML Engineer specializing in LLM-powered analytics, RAG, and voice AI automation,
+        with a focus on scalable deployment and real business impact.
+      </p>
+      <div class="cta">
+        <a class="btn primary" href="#projects">View my work</a>
+        <a class="btn" href="Vaibhav_Patil_Resume.pdf" download>Download resume</a>
+      </div>
+      <ul class="stats">
+        <li><strong data-count="2" data-suffix="+ yrs">2+ yrs</strong><span>building AI in production</span></li>
+        <li><strong data-count="100" data-suffix="%">100%</strong><span>entity recall in voice-extraction evaluation</span></li>
+        <li><strong data-count="20" data-prefix="10–" data-suffix=" min">10–20 min</strong><span>recordings processed asynchronously</span></li>
+      </ul>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="reveal">
+      <h3 class="section-title"><span class="mono">01.</span> About</h3>
+      <div class="about-grid">
+        <p>
+          I'm an AI Engineer based in Mumbai, currently working remotely at <strong>Quantal AI</strong>.
+          I design the full path from messy real-world input — meeting audio, unstructured PDFs,
+          complex databases — to reliable, structured output that other systems can act on.
+        </p>
+        <p>
+          My work spans backend engineering (FastAPI, PostgreSQL), LLM orchestration, vector search,
+          and cloud deployment on AWS and GCP. I care about the unglamorous parts that make AI
+          usable: evaluation, human-in-the-loop review, CI/CD, and access control.
+        </p>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="reveal">
+      <h3 class="section-title"><span class="mono">02.</span> Experience</h3>
+      <div class="timeline">
+
+        <article class="job" data-tags="python fastapi postgresql gcp github llm genai whisper voice retell agentic">
+          <div class="job-head">
+            <h4>AI Engineer <span class="at">@ Quantal AI</span></h4>
+            <span class="date mono">05/2026 – Present · Remote</span>
+          </div>
+          <ul>
+            <li>Architected the backend of an AI voice automation platform that turns deal discussions from meetings and calls into structured <b>tasks, opportunities, and contacts</b> — 100% entity recall in evaluation, ~70% of extractions needing no field-level correction.</li>
+            <li>Designed the <b>FastAPI</b> backend and relational data model on <b>PostgreSQL / Cloud SQL</b> with SQLAlchemy and Alembic.</li>
+            <li>Built an end-to-end voice pipeline with <b>OpenAI APIs and Whisper</b> and async background workers for 10–20 minute recordings.</li>
+            <li>Deployed on <b>GCP Cloud Run</b> with Cloud Storage and <b>GitHub Actions</b> CI/CD; designed human-in-the-loop intent confirmation feeding Salesforce/Trello automation.</li>
+            <li>Architected a multi-agent voice AI system (<b>Retell AI, n8n, GoHighLevel</b>) automating patient calls: booking, rescheduling, cancellations, insurance queries.</li>
+          </ul>
+        </article>
+
+        <article class="job" data-tags="python postgresql pgvector rag llm genai aws vector nlp">
+          <div class="job-head">
+            <h4>AI/ML Engineer <span class="at">@ AVAXPRO Tech Pvt Ltd</span></h4>
+            <span class="date mono">11/2024 – 04/2026 · Mumbai</span>
+          </div>
+          <ul>
+            <li>Built a <b>Gen AI reporting platform</b> using RAG: natural-language analytics over a complex PostgreSQL schema with a custom semantic layer, intelligent table detection, role-based access control, and LLM text-to-SQL (GPT-4o-mini on Amazon Bedrock).</li>
+            <li>Created a <b>PGVector</b> semantic layer mapping business-friendly names, aliases, types, and aggregation rules to eliminate common semantic query errors.</li>
+            <li>Deployed a <b>document intelligence pipeline</b> on AWS (EC2, S3) using PyMuPDF, OCR, and schema-driven LLM extraction to turn large PDFs into Excel/CSV datasets.</li>
+          </ul>
+        </article>
+
+        <article class="job" data-tags="python fastapi docker aws rag pinecone chromadb pandas vector llm genai nlp">
+          <div class="job-head">
+            <h4>AI/ML Intern <span class="at">@ AVAXPRO Tech Pvt Ltd</span></h4>
+            <span class="date mono">04/2024 – 10/2024 · Mumbai</span>
+          </div>
+          <ul>
+            <li>Engineered an LLM-powered <b>RAG chatbot</b> on internal data using embeddings, Pinecone and ChromaDB — 55% CSAT.</li>
+            <li>Containerized and deployed a FastAPI chatbot with <b>Docker on AWS EC2</b>, cutting deployment-related issues by 40%.</li>
+            <li>Built ETL and analysis pipelines in pandas over large sales, purchase, and stock datasets.</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="reveal">
+      <h3 class="section-title"><span class="mono">03.</span> Featured Work</h3>
+      <div class="cards">
+
+        <article class="card" data-tags="python fastapi postgresql gcp whisper llm genai voice">
+          <span class="tag mono">Voice AI · Quantal AI</span>
+          <h4>Voice-to-CRM Automation</h4>
+          <p>Converts recorded deal conversations into structured tasks, opportunities, and contacts, with human confirmation before anything syncs downstream.</p>
+          <ul class="chips static"><li>FastAPI</li><li>Whisper</li><li>OpenAI</li><li>Cloud Run</li><li>PostgreSQL</li></ul>
+          <button class="flow-btn" aria-expanded="false">See how it works</button>
+          <ol class="pipeline" hidden>
+            <li>Meeting / call audio</li><li>Whisper transcription</li><li>LLM entity extraction</li><li>Human confirms intent</li><li>Salesforce / Trello</li>
+          </ol>
+        </article>
+
+        <article class="card" data-tags="retell voice agentic llm genai">
+          <span class="tag mono">Multi-agent · Quantal AI</span>
+          <h4>Patient Call Agent</h4>
+          <p>Voice agent handling appointment booking, rescheduling, cancellations and insurance questions, with intent routing and SMS/email confirmations.</p>
+          <ul class="chips static"><li>Retell AI</li><li>n8n</li><li>GoHighLevel</li></ul>
+          <button class="flow-btn" aria-expanded="false">See how it works</button>
+          <ol class="pipeline" hidden>
+            <li>Inbound patient call</li><li>Retell AI voice agent</li><li>Intent routing (n8n)</li><li>GoHighLevel CRM sync</li><li>SMS / email confirmation</li>
+          </ol>
+        </article>
+
+        <article class="card" data-tags="python rag llm genai pgvector postgresql aws vector nlp">
+          <span class="tag mono">RAG · AVAXPRO</span>
+          <h4>Natural-Language Analytics (Text-to-SQL)</h4>
+          <p>Business users ask questions in plain English; a semantic layer and role-based access turn them into accurate, permitted SQL.</p>
+          <ul class="chips static"><li>GPT-4o-mini</li><li>Bedrock</li><li>PGVector</li><li>PostgreSQL</li></ul>
+          <button class="flow-btn" aria-expanded="false">See how it works</button>
+          <ol class="pipeline" hidden>
+            <li>Plain-English question</li><li>Table detection + role-based access</li><li>PGVector semantic layer</li><li>LLM writes SQL</li><li>Results</li>
+          </ol>
+        </article>
+
+        <article class="card" data-tags="python aws llm genai">
+          <span class="tag mono">Document AI · AVAXPRO</span>
+          <h4>PDF → Structured Data Pipeline</h4>
+          <p>OCR plus schema-driven LLM extraction that converts large unstructured PDFs into clean Excel/CSV for e-commerce systems.</p>
+          <ul class="chips static"><li>PyMuPDF</li><li>OCR</li><li>AWS EC2/S3</li></ul>
+          <button class="flow-btn" aria-expanded="false">See how it works</button>
+          <ol class="pipeline" hidden>
+            <li>Large unstructured PDF</li><li>PyMuPDF + OCR</li><li>Schema-driven LLM extraction</li><li>Excel / CSV output</li>
+          </ol>
+        </article>
+
+      </div>
+      <p class="note">More code on <a href="https://github.com/vaibhav0018" target="_blank" rel="noopener">GitHub</a>.</p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="reveal">
+      <h3 class="section-title"><span class="mono">04.</span> Skills</h3>
+      <p class="hint">Click a skill to highlight the roles and projects where I used it.
+        <span id="filter-status" class="mono" hidden></span>
+      </p>
+      <div class="skills">
+        <div>
+          <h4>Programming &amp; Backend</h4>
+          <ul class="chips">
+            <li><button data-skill="python">Python</button></li>
+            <li><button data-skill="fastapi">FastAPI</button></li>
+            <li><button data-skill="docker">Docker</button></li>
+            <li><button data-skill="github">GitHub</button></li>
+            <li><button data-skill="aws">AWS (S3, EC2, Bedrock)</button></li>
+            <li><button data-skill="gcp">GCP</button></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Databases &amp; Data</h4>
+          <ul class="chips">
+            <li><button data-skill="mysql">MySQL</button></li>
+            <li><button data-skill="postgresql">PostgreSQL</button></li>
+            <li><button data-skill="pandas">pandas</button></li>
+            <li><button data-skill="airflow">Apache Airflow</button></li>
+            <li><button data-skill="pinecone">Pinecone</button></li>
+            <li><button data-skill="chromadb">ChromaDB</button></li>
+            <li><button data-skill="pgvector">PGVector</button></li>
+          </ul>
+        </div>
+        <div>
+          <h4>AI &amp; Machine Learning</h4>
+          <ul class="chips">
+            <li><button data-skill="agentic">Agentic AI</button></li>
+            <li><button data-skill="genai">GenAI</button></li>
+            <li><button data-skill="mcp">MCP</button></li>
+            <li><button data-skill="nlp">NLP</button></li>
+            <li><button data-skill="llm">LLMs</button></li>
+            <li><button data-skill="rag">RAG</button></li>
+            <li><button data-skill="huggingface">Hugging Face</button></li>
+            <li><button data-skill="sklearn">Scikit-learn</button></li>
+            <li><button data-skill="vector">Vector Search</button></li>
+            <li><button data-skill="ollama">Ollama</button></li>
+            <li><button data-skill="langchain">LangChain</button></li>
+            <li><button data-skill="langgraph">LangGraph</button></li>
+            <li><button data-skill="retell">Retell AI</button></li>
+            <li><button data-skill="voice">Voice AI</button></li>
+            <li><button data-skill="elevenlabs">ElevenLabs</button></li>
+            <li><button data-skill="vapi">Vapi</button></li>
+            <li><button data-skill="a2a">A2A</button></li>
+            <li><button data-skill="whisper">Whisper</button></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="reveal">
+      <h3 class="section-title"><span class="mono">05.</span> Education</h3>
+      <div class="edu">
+        <div><h4>Masters in Information Technology</h4><p>Mumbai University · 2023 – 2025 · CGPA 8.61</p></div>
+        <div><h4>Bachelor in Information Technology</h4><p>Mumbai University · 2020 – 2023 · CGPA 8.95</p></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="reveal contact">
+      <h3 class="section-title"><span class="mono">06.</span> Let's talk</h3>
+      <p class="lead">Hiring, collaborating, or just curious about what I've built? My inbox is open.</p>
+      <a class="btn primary" href="mailto:patilvaibhav0018@gmail.com">patilvaibhav0018@gmail.com</a>
+      <ul class="links">
+        <li><a href="https://www.linkedin.com/in/vaibhav-patil-93b660288" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://github.com/vaibhav0018" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="tel:+919325799828">+91 93257 99828</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>© <span id="year"></span> Vaibhav Patil · Mumbai, India</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
